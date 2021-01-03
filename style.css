@@ -27,6 +27,9 @@ br.sp { display: none; }
   .text {
     font-size: 1rem;
   }
+  .mini-text{
+    font-size: 0.8rem;
+  }
 }
 /* // 小デバイス（横向きモバイル, 768px 未満） */
 
@@ -38,6 +41,10 @@ br.sp { display: none; }
   .text {
     font-size: 1rem;
   }
+  .mini-text{
+    font-size: 1rem;
+  }
+
 }
 /* @include media-breakpoint-up(sm) { */
 /* // 極小デバイス（縦向きモバイル, 576px 未満） */
