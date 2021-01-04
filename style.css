@@ -1,3 +1,20 @@
+body{
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* アンカーリンク時のズレ防止 */
+div.contents {
+	padding-top: 100px;
+}
+
+div.contents_innner {
+  display: block;
+    padding-top: 100px;
+    margin-top:-100px;
+}
+
+
+
 .bg-img {
   background: url(img/cranes1.jpg) center;
   background-size: 40%;
@@ -5,6 +22,22 @@
 .m-title{
   font-weight: bold;
 }
+
+/* Facebook */
+.facebook-wrapper {
+  max-width: 500px; /* Facebook Page Plugin の最大幅 */
+  margin: 0 auto;
+}
+
+.facebook-wrapper > .fb-page {
+  width: 100%;
+}
+
+.facebook-wrapper > .fb-page > span,
+.facebook-wrapper iframe {
+  width: 100% !important;
+}
+
 /* // 大デバイス（デスクトップ, 1200px 未満） */
 br.sp { display: none; }
 
