@@ -3,11 +3,13 @@ body{
 }
 
 /* アンカーリンク時のズレ防止 */
-div.contents {
-	padding-top: 100px;
+.contents{
+  padding-top: 100px;
+
 }
 
-div.contents_innner {
+.contents_innner{
+
   display: block;
     padding-top: 100px;
     margin-top:-100px;
