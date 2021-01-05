@@ -15,7 +15,9 @@ body{
     margin-top:-100px;
 }
 
-
+.bg-green{
+  background-color: #e2efd3;
+}
 
 .bg-img {
   background: url(img/cranes1.jpg) center;
