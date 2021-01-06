@@ -1,10 +1,106 @@
+body{
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* アンカーリンク時のズレ防止 */
+.contents{
+  padding-top: 100px;
+
+}
+
+.contents_innner{
+
+  display: block;
+    padding-top: 100px;
+    margin-top:-100px;
+}
+
+.bg-green{
+  background-color: #e2efd3;
+}
+
 .bg-img {
   background: url(img/cranes1.jpg) center;
   background-size: 40%;
 }
+.m-title{
+  font-weight: bold;
+}
+
+/* Facebook */
+.facebook-wrapper {
+  max-width: 500px; /* Facebook Page Plugin の最大幅 */
+  margin: 0 auto;
+}
+
+.facebook-wrapper > .fb-page {
+  width: 100%;
+}
+
+.facebook-wrapper > .fb-page > span,
+.facebook-wrapper iframe {
+  width: 100% !important;
+}
+/* ---------------------------------------------------------------------------------
+ ◆ ページの先頭へ移動するボタンの入れ物 
+--------------------------------------------------------------------------------- */
+#to-pagetop {
+	/* 表示位置の指定 (右下から 20px 固定) */
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	/* 初期は非表示 */
+	display: none;
+}
+ 
+/* ---------------------------------------------------------------------------------
+ ◆ 「ページの先頭へ」のリンクボタン 
+--------------------------------------------------------------------------------- */
+#to-pagetop a {
+	/* 余白 */
+	padding: 20px;
+	/* リンクのテキスト装飾なし */
+	text-decoration: none;
+	/* 文字は太字 */
+	font-weight: bold;
+	/* マウスカーソルをポインター (指) にする */
+	cursor: pointer;
+	/* ブロック表示 */
+	display: block;
+	/* 背景色と前景色 */
+	background-color: #004a7f;
+	color: #fff;
+	/* 角を丸めるスタイル */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* マウスカーソルを合わせた時 (ホバー時) のアニメーション */
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+ 
+/* ---------------------------------------------------------------------------------
+ ◆ 「ページの先頭へ」のリンクボタンにマウスカーソルを合わせた時 (ホバー時)
+--------------------------------------------------------------------------------- */
+#to-pagetop a:hover {
+	/* 背景色と前景色 */
+	background-color: #adddff;
+	color: #003459;
+}
+
+
+
+
+
+
+
+
 /* // 大デバイス（デスクトップ, 1200px 未満） */
+br.sp { display: none; }
 
 @media (min-width: 992px) {
+  br.sp { display: none; }
   .title {
     font-size: 2rem;
   }
@@ -15,31 +111,62 @@
 /* // 中デバイス（タブレット, 992px 未満） */
 
 @media (max-width: 991.98px) {
+  br.sp { display: none; }
   .title {
     font-size: 1.5rem;
   }
   .text {
     font-size: 1rem;
   }
+  .mini-text{
+    font-size: 0.8rem;
+  }
 }
 /* // 小デバイス（横向きモバイル, 768px 未満） */
 
 @media (max-width: 767.98px) {
+  br.sp { display: none; }
   .title {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
   }
   .text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
+  .mini-text{
+    font-size: 1rem;
+  }
+
 }
 /* @include media-breakpoint-up(sm) { */
 /* // 極小デバイス（縦向きモバイル, 576px 未満） */
 
 @media (max-width: 575.98px) {
+  br.sp { display: inline; }
+  .m-title {
+    font-size: 2rem;
+  }
   .title {
     font-size: 1.5rem;
   }
   .text {
     font-size: 1.5rem;
   }
+
+  /* @include media-breakpoint-up(sm) { */
+/* // 極小デバイス（縦向きモバイル, 400px 未満） */
+
+@media (max-width: 399.98px) {
+
+  br.sp { display: inline; }
+
+  .m-title {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+}
 }
