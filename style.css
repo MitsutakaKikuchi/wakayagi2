@@ -25,8 +25,14 @@ body{
 }
 .m-title{
   font-weight: bold;
-}
 
+}
+.ls{
+  letter-spacing: 0.3rem;
+}
+.text-i{
+  text-indent: 1em;
+}
 /* Facebook */
 .facebook-wrapper {
   max-width: 500px; /* Facebook Page Plugin の最大幅 */
@@ -50,7 +56,8 @@ body{
 	right: 20px;
 	bottom: 20px;
 	/* 初期は非表示 */
-	display: none;
+  display: none;
+  z-index: 10;
 }
  
 /* ---------------------------------------------------------------------------------
