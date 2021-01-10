@@ -324,7 +324,7 @@ if (($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1) {
 
 		</div>
 	</body>
-    <?php include('inc/footer_js.php'); ?>
+
 	</html>
 <?php
 	/* ▲▲▲送信確認画面のレイアウト　※オリジナルのデザインも適用可能▲▲▲　*/
@@ -379,7 +379,7 @@ if (($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &
 					<br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()">
 			</div>
 		</div>
-		<?php include('inc/footer_js.php'); ?>
+
 	</body>
 
 	</html>
