@@ -176,6 +176,10 @@
                 </div>
             </div>
         </div>
+
+        <div class="m-auto w-50">
+        <button type="button" class="btn btn-outline-success btn-lg btn-block my-3" disabled>[準備中]他のお稽古場を見る</button>
+        </div>
             <!-- お稽古のご案内 -->
 
 
