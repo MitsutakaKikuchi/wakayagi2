@@ -136,7 +136,7 @@ $mailSignature = <<< FOOTER
 〒151-0062 東京都渋谷区元代々木町26-3
 TEL：03- 3460 - 7612 　FAX：03- 3460 - 7612
 E-mail:wakayagi263@gmail.com
-URL: http://www.php-factory.net/
+URL: https://nihonbuyou-wakayagiryu.com
 ──────────────────────
 
 FOOTER;
