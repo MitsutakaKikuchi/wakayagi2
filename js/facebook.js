@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
+$(function() {
     // ページプラグインの埋め込みコードを返す
     function pagePluginCode(w) {
 
