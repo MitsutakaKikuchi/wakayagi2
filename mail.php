@@ -52,7 +52,7 @@ $Referer_check = 0;
 
 //リファラチェックを「する」場合のドメイン ※設置するサイトのドメインを指定して下さい。
 //もしこの設定が間違っている場合は送信テストですぐに気付けます。
-$Referer_check_domain = "php-factory.net";
+$Referer_check_domain = "https://nihonbuyou-wakayagiryu.com";
 
 /*セッションによるワンタイムトークン（CSRF対策、及びスパム防止）(する=1, しない=0)
 ※ただし、この機能を使う場合は↓の送信確認画面の表示が必須です。（デフォルトではON（1）になっています）
@@ -73,7 +73,8 @@ $userMail = 1;
 $BccMail = "";
 
 // 管理者宛に送信されるメールのタイトル（件名）
-$subject = "ホームページのお問い合わせ";
+$subject = "直派分家若柳流 
+ホームページのお問い合わせ";
 
 // 送信確認画面の表示(する=1, しない=0)
 $confirmDsp = 1;
@@ -84,7 +85,7 @@ $confirmDsp = 1;
 $jumpPage = 0;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。（相対パスでも基本的には問題ないです）
-$thanksPage = "http://xxx.xxxxxxxxx/thanks.html";
+$thanksPage = "https://nihonbuyou-wakayagiryu.com";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;
@@ -117,7 +118,7 @@ $dsp_name = 'お名前';
 $remail_text = <<< TEXT
 
 お問い合わせありがとうございました。
-早急にご返信致しますので今しばらくお待ちください。
+返信まで今しばらくお待ちください。
 
 送信内容は以下になります。
 
@@ -622,8 +623,6 @@ if (($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &
 				$userBody .= $remail_text;
 				$userBody .= "\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
 				$userBody .= postToMail($arr); //POSTデータを関数からセット
-				$userBody .= "\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
-				$userBody .= "送信日時：" . date("Y/m/d (D) H:i:s", time()) . "\n";
 				if ($mailFooterDsp == 1) $userBody .= $mailSignature;
 				return mb_convert_encoding($userBody, "JIS", $encode);
 			}
