@@ -3,7 +3,7 @@
 
 <head>
     <title>直派分家若柳流について</title>
-
+    <meta name=”description” content=”直派分家若柳流の紋章や流舞についてのご紹介”>
     <?php include('inc/head.php'); ?>
 </head>
 
@@ -78,8 +78,8 @@
                         <br />
 
                         <!-- スライドショー -->
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade mx-5" data-ride="carousel">
-                            <div class="carousel-inner ">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade mx-5" data-ride="carousel" data-interval=3500>
+                            <div class="carousel-inner "   >
                                 <div class="carousel-item active ">
                                     <img src="img/ryubu-1.jpg" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" height="80%">
                                 </div>

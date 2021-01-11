@@ -1,3 +1,5 @@
+
+
 <meta name="google-site-verification" content="zcNexMAGxMsHcnhr9_rLj2TYerwW_hgPKSKxm5AfRsY" /> 
 <meta name=”robots” content=”noindex”>
 <link rel="canonical" href="https://nihonbuyou-wakayagiryu.com">

@@ -4,6 +4,7 @@
 <head>
     <?php include('inc/head.php'); ?>
     <title>日本舞踊 直派分家若柳流</title>
+    <meta name=”description” content=”日本舞踊 直派分家若柳流 公式Webサイト”>
 </head>
 
 
@@ -24,7 +25,7 @@
                     <a class="nav-item nav-link" href="about.php">直派分家若柳流について</a>
                     <a class="nav-item nav-link" href="#keiko">お稽古場のご案内</a>
                     <a class="nav-item nav-link"
-                        href="https://www.facebook.com/%E6%97%A5%E6%9C%AC%E8%88%9E%E8%B8%8A-%E7%9B%B4%E6%B4%BE%E5%88%86%E5%AE%B6%E8%8B%A5%E6%9F%B3%E6%B5%81-319206524870126">活動の様子</a>
+                        href="https://www.facebook.com/pg/日本舞踊-直派分家若柳流-319206524870126/photos/?tab=albums">活動の様子</a>
                     <a class="nav-item nav-link" href="#contact">お問い合わせ</a>
                 </div>
             </div>
@@ -32,7 +33,7 @@
     </header>
 
     <!-- スライドショー -->
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval=3500>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -107,7 +108,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-center title ">活動の様子</h5>
                         <p class="card-text text">直派分家若柳流の舞踊公演「扇寿会」や日々の活動の様子についてのご紹介</p>
-                        <a href="https://www.facebook.com/%E6%97%A5%E6%9C%AC%E8%88%9E%E8%B8%8A-%E7%9B%B4%E6%B4%BE%E5%88%86%E5%AE%B6%E8%8B%A5%E6%9F%B3%E6%B5%81-319206524870126"
+                        <a href="https://www.facebook.com/pg/日本舞踊-直派分家若柳流-319206524870126/photos/?tab=albums"
                             class="btn btn-primary btn-block text">詳しく見る</a>
                     </div>
                 </class>
