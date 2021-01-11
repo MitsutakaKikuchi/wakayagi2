@@ -40,5 +40,3 @@
     </footer>
 
     <p id="to-pagetop"><a>▲ ページの先頭へ</a></p>
-
-
