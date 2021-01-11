@@ -2,8 +2,8 @@
 <html lang="ja">
 
 <head>
-    <title>日本舞踊 直派分家若柳流</title>
     <?php include('inc/head.php'); ?>
+    <title>日本舞踊 直派分家若柳流</title>
 </head>
 
 
