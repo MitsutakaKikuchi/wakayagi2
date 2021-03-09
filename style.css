@@ -23,6 +23,7 @@ body{
   background: url(img/cranes1.jpg) center;
   background-size: 40%;
 }
+
 .m-title{
   font-weight: bold;
 
@@ -173,7 +174,7 @@ br.sp { display: none; }
     font-size: 1.5rem;
   }
   .text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 }
